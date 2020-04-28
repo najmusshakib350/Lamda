@@ -1,0 +1,490 @@
+body{
+   
+    font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Yeseva One', cursive;
+}
+/*Header Section Css Start*/
+
+header{
+    background: url(../img/Header-background.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+header .logo{
+    width: 100px;  
+    height: 50px;
+}
+header .logo-img{
+
+}
+header .navbar-toggler-icon{background: #fff;}
+header .navbar .nav-item.active .nav-link{
+    color: #fff;
+}
+header .navbar .nav-item{
+    position: relative;
+    margin-left: 10px;
+}
+header .navbar .nav-item::before{
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 0%;
+    height: 3px;
+    left: 0;
+    top: -36px;
+    transition:0.5s linear;
+}
+header .navbar .nav-item:hover::before{
+    width:100%;   
+}
+header .navbar .nav-item .nav-link{
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+}
+header .social{
+
+}
+header .navbar .nav-item .icon-link{
+    text-decoration: none;
+    font-size: 20px;
+}
+header .navbar .nav-item .icon-link .fa-twitter{
+    color: #fff;
+    padding-top: 12px;
+}
+header .navbar .nav-item .icon-link .fa-twitter:hover{
+    color: #dab33e;
+}
+header .navbar .nav-item .icon-link .fa-youtube{
+    color: #fff;
+    padding-top: 12px;
+}
+header .navbar .nav-item .icon-link .fa-youtube:hover{ 
+    color: #dab33e;
+}
+header .navbar .nav-item .icon-link .fa-facebook{
+    color:#fff;
+    padding-top: 12px;
+}
+header .navbar .nav-item .icon-link .fa-facebook:hover{ 
+    color:#dab33e;
+}
+header .navbar .nav-item .nav-link:hover{
+    color: #ff8b38;
+}
+
+ header .header-control{
+    text-align: center;
+    margin-top: 15%;
+} 
+ header .header-control h1{ 
+    color: #fff; 
+    font-size: 90px;
+} 
+header .header-control img{
+    margin-top: 5%;
+}
+header .header-control{
+    text-align: center;
+} 
+header .header-control .Button-control{ 
+    margin-top: 8%;
+} 
+header .header-control .Button-control .btn{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 60px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 0.5s linear;
+}
+header .header-control .Button-control .btn-cta{
+   margin-right: 15px;
+   background: #222222;
+   opacity: 1;
+}
+header .header-control .Button-control .btn-ghost{
+    background: url(../img/bg-background.png);
+    margin-left: 15px;
+}
+header .header-control .Button-control .btn-cta:hover{
+    background: #242823;
+    border: 1px solid #242823;
+}
+header .header-control .Button-control .btn-ghost:hover{
+    background: #9e8b36;
+    border: 1px solid #9e8b36;
+}   
+ /*Header Section Css End*/
+ /*Banner Section Css Start*/
+ section{  
+    padding: 80px 0px;
+ }
+.banner{
+    background: url(../img/bannerbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner .banner-responsive{
+
+}
+.banner .text-center{
+    margin-top: 8%;
+    padding: 0px 21%;
+}
+.banner .text-center h2{
+    color: #cc9900;
+    font-size: 36px;
+}
+.banner .text-center p{
+    margin-top: 5%;
+    color: #4c4c4c;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner .text-center .img-cook{
+    margin-top: 8%;
+}
+.banner .img-control{
+
+}
+.banner .img-control img{
+    width: 100%;
+}
+ /*Banner Section Css End*/
+ /*feature Section Css Start*/
+ .feature{
+     background: url(../img/cook-background.png);
+     background-position: left top;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .feature .feature-img{
+     
+display: flex;
+     
+justify-content: center;
+ }
+ .feature .feature-control{
+    width: 50%;
+    float: right;
+    padding: 40px 70px;
+    background: url(../img/Text\ Background-reviews.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.feature .feature-control h3{
+    color: #fff;
+    font-size: 36px;
+    margin-top: 15%;
+}
+.feature .feature-control p{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 6%;
+}
+.feature .feature-control .img-fluid-control{
+    margin-top: 5%;
+    margin-bottom: 15%;
+    padding: 10px;
+}
+ /*Feature Section Css End*/
+ /*Menu Section Start*/
+.menu{
+     background: url(../img/Menu\ background.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.left-padding-control{
+    padding-right: 60px;
+}
+.right-padding-control{
+    padding-left: 60px;
+}
+.menu .left-upper{
+
+}
+.menu .left-upper .menu-topbar h2{  
+    color: #cc9900; 
+    margin-bottom: 3%;
+}
+.menu .left-upper .menu-topbar img{ 
+    margin-bottom: 5%;
+}
+.menu .left-upper .hero-area{
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin-bottom: 4%;
+}
+.menu .left-upper .hero-area:hover{
+    border: 1px solid #cc9900;
+}
+.menu .left-upper .hero-area .heading-left{  
+    color: #cc9900;
+}
+.menu .left-upper .hero-area .heading-right{  
+    color: #cc9900;
+}
+
+.menu .left-upper .hero-area .paragrap-1{
+    color: #4c4c4c;
+}
+.menu .left-upper .hero-area .horizontal{
+    width: 100%;
+    height: 1px;
+    background: #cc9900;
+    margin-bottom: 2%;
+}
+.menu .left-div-control{
+    margin-top: 10%;
+}
+.menu .left-upper .special-control{
+    position: relative;
+}
+.menu .left-upper .special-control .special{
+    position: absolute;
+    top: -23px;
+    right: 0;
+    opacity: 0;
+}
+.menu .left-upper .special-control:hover .special{
+    opacity: 1;
+}
+.menu .left-upper .special-control .special p{
+ background: #cc9900;
+ padding: 0 13px;
+ color: #fff;
+ }
+.menu .left-upper .special-control:hover .special p{
+   background: #cc9900;
+}
+.div-horizontal{ 
+    width: 90% !important;  
+    margin-left: 5%; 
+    margin-right: 5%;
+}
+.move-right{ 
+    margin-left: 10%;
+}
+.move-left{
+    margin-right: 10%;
+}
+ /*Menu Section End*/
+ /*About Section Start*/
+ .about{
+     background: url(../img/reviews-section-background.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+ .about .about-control{
+     background: url(../img/Text\ Background-reviews.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     width: 60%;
+     padding: 100px 10%;
+     margin: 0 auto;
+ }
+ .about .about-control h2{
+    color: #fff;
+    font-size: 36px;
+}
+.about .about-control .paragrap-upper{    
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 16px;
+    margin-top: 5%;
+}
+.about .about-control .paragrap-lower{
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 12px;
+}
+ /*About Section End*/
+ /*Reservation Section Css start*/
+.reservation{
+     background: url(../img/Reservation-background.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .reservation-img-responsive{
+
+ }
+ .reservation-responsive{
+
+ }
+ .reservation .left-side-pic{
+
+ }
+ .reservation .right-side-pic{
+
+}
+ .reservation .img-control{
+     
+}
+.reservation .registration{
+    padding-left: 18%;
+}
+.reservation .registration .text h2{     
+    color: #cc9900;
+    font-size: 36px;
+}
+.reservation .registration .text .paragrap1{    
+    font-size: 16px;
+    color: #4c4c4c;
+    margin-top: 6%;
+    line-height: 2;
+    padding: 0 10px;
+}
+.reservation .registration .text .paragrap2{     
+    line-height: 2;
+    padding: 0 10px;
+}
+.reservation .registration .form form .level{
+    float: left;
+    color: #c9a131;
+}
+.reservation .registration .form form .text-type{    
+    border: 1px solid;
+    width: 100%;
+    font-style: italic;
+    padding: 8px 10px;
+    color: #9c9c9c;
+    
+}
+.reservation .registration .form form .text-type:hover{
+    border: 1px solid #c9a131;
+    box-sizing: border-box;
+}
+.reservation .registration .form form .select-type{    
+    width: 100%;
+    font-style: italic;
+    padding: 11px 10px;
+    color: #9c9c9c;
+}
+.reservation .registration .form form .select-type:hover{
+    border: 1px solid #c9a131;
+}
+.reservation .registration .form form .btn-div{        
+    text-align: center;
+}
+.reservation .registration .form form .submit-btn .btn{
+    border: 1px solid transparent;
+    background: #fff;
+    padding: 7px 55px;
+    margin-top: 8%;
+    color: #191919;
+    font-size: 18px;
+    opacity: 0.6;
+}
+.reservation .registration .form form .submit-btn .btn:hover{   
+    border: 1px solid #c9a131;
+    background: #c9a131;
+    color: #fff;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+.reservation .registration .form form .left-side{
+    float: left;
+}
+.reservation .registration .form form .right-side{
+    float: left;
+}
+ /*Reservation Section Css End*/
+ /*Footer Section Css Start*/
+ .footer-section{
+    background: #191919;
+}
+.footer-section .footer-control{
+
+}
+ .footer-section .left-control h2{
+    font-size: 21px; 
+    color: #fff;
+}
+.footer-section .left-control p{
+    font-size: 16px;
+    color: #fff;
+    margin-top: 6%;
+}
+.footer-section .middle-control{
+    padding: 0px 20%;
+}
+.footer-section .middle-control h2{   
+    font-size: 21px;
+    color: #fff;
+}
+.footer-section .middle-control p{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 6%;
+}
+.footer-section .middle-control .cards{   
+    margin-top: 38%;
+}
+.footer-section .right-control{
+    padding: 0px 22%;
+}
+.footer-section .right-control h2{
+    font-size: 21px;
+    color: #fff;
+}
+.footer-section .right-control p{   
+    font-size: 16px;
+    color: #fff;
+    margin-top: 6%;
+}
+.footer-section .social-media{
+
+}
+.footer-section .divider{
+
+width: 100%;
+}
+.footer-section .right-control .icon-menu{
+    list-style: none;
+    margin-top: 38%;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+.footer-section .right-control .icon-menu .icon-item{
+}
+.footer-section .right-control .icon-menu .icon-item .icon-link{
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    padding: 10px 10px;
+ }
+.footer-section .right-control .icon-menu .icon-item .icon-link::after{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 100%;
+    background: #f2ba1d;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s linear;
+}
+.footer-section .right-control .icon-menu .icon-item .icon-link:hover::after{
+    border-radius: 50%;
+    height: 100%;
+}
+
+ /*Footer Section Css End*/
+
